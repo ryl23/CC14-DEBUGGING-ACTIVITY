@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Debugging Activity</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href=".styles.css"> <!--incorrect css file, now corrected-->
 </head>
 <body>
     <header>
         <h1>Debugging Activity</h1>
     </header>
     <nav>
-        <ul style="color: brown;">
+        <ul> <!--removed style since we have styles.css-->
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</li>
+            <li><a href="#">About</a></li><!--missing </a> in the code-->
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
     <main>
         <section>
-            <h2>About Us
+            <h2>About Us<h2><!--missing h2 code-->
             <p>Welcome to our website. We provide top-notch services in various fields.</p>
         </section>
         <section>
@@ -40,7 +40,7 @@
                 <input type="email" id="email" name="email">
                 <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message here"></textarea>
                 <button type="submit">Send</button>
-            
+            </form><!--added /form since it is missing-->
         </section>
     </main>
     <footer>
